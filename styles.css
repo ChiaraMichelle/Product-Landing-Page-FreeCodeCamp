@@ -1,0 +1,323 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #F2DBE7;
+}
+
+
+#header-img {
+  width: 200px;
+  
+}
+
+#header {
+   background-color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding-top: 1em;
+   padding-left: 1em;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   padding-bottom: 1em;
+
+}
+
+#nav-bar {
+   background-color: white;
+   width: 100%;
+}
+
+.image-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 0.9em;
+  font-weight: 400;
+
+}
+
+.little-title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 1em;
+  color: #00008b;
+}
+
+li {
+  list-style: none;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+   justify-content: space-around;
+   font-family: 'Roboto Mono', monospace;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:focus {
+  text-decoration: underline;
+  color: black;
+}
+
+
+
+#c-glow {
+  align-items: center;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 45px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#serum-image {
+  width: 50%;
+  margin-top: 160px;
+  margin-right: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+  object-position: 50% 50%;
+}
+
+#c-glow-text {
+  width: 50%;
+  margin-top: 160px;
+}
+
+#about-text {
+  width: 50%;
+}
+
+#about-image {
+  width: 50%;
+  overflow: hidden;
+  margin-left: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+  }
+
+#about {
+ display: flex;
+  flex-direction: row;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+ }
+
+ .blue-container {
+   width: 100%;
+    background-color: #ccdddd;
+ }
+
+ #how-to-use {
+ display: flex;
+  flex-direction: row;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+ }
+
+ #how-to-use-img {
+   width: 50%;
+   margin-right: 80px;
+   border-radius: 10px;
+   object-fit: cover;
+   height: 250px;
+ }
+
+ #how-to-use-text {
+   width: 50%;
+ }
+
+ #ingredients {
+ display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+#video {
+  margin: auto;
+  width: 40%;
+  display: block;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+footer {
+  height: 100px;
+  width: 50%;
+}
+
+#form {
+  padding-top: 30px;
+  display: block;
+  padding-right: 10%;
+  padding-left: 70%;
+  padding-bottom: 30px;
+ width: 100%;
+}
+
+#submit {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#email-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+@media (max-width:769px) and (min-width: 100px) {
+
+  body {
+    min-width: 300px;
+
+  }
+ #nav-bar {
+   display: none;
+ }
+ #header {
+   position: static;
+ }
+
+ #header-img {
+  width: 200px;
+  margin: auto;
+
+}
+
+#c-glow {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 45px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#serum-image {
+  width: 80%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+   object-fit: cover;
+  height: 300px;
+  object-position: 50% 50%;
+}
+
+
+#c-glow-text {
+  width: 80%;
+  margin-top: 60px;
+}
+
+#about-text {
+  width: 80%;
+   margin-top: 60px;
+}
+
+#about-image {
+  width: 80%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+  }
+
+#about {
+ display: flex;
+  flex-direction: column-reverse;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+ }
+
+#how-to-use {
+ display: flex;
+  flex-direction: column;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+ }
+
+ #how-to-use-img {
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 10px;
+   object-fit: cover;
+   height: 250px;
+ }
+
+ #how-to-use-text {
+   width: 80%;
+   margin-top: 60px;
+ }
+
+#video {
+  margin: auto;
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+#form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+margin-left: -20%;
+ width: 100%;
+ font-size: 1.1em;
+}
+}
